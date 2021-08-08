@@ -1,0 +1,27 @@
+.sign-up:hover {
+  color: #ffffff;
+  box-shadow: 0 0.3em 0.4em -0.2em #ff0303;
+  transform: translateY(-3px);
+  border-color: #ff0000;
+}
+.nav-links a:hover {
+  color: #d2ff2d;
+}
+
+button.explore:hover {
+  color: #000000;
+  background: hsla(33, 100%, 53%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
+  );
+}
+.shop-btn button:hover{
+  color: #ff3236;
+  box-shadow: 0 0.3em 0.4em -0.2em;
+  transform: translateY(-3px);
+  border-color: #ff3a54;
+}
+
+

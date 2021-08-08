@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.5)),
+    url(../image/main-car.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/**************NAVIGATION BAR*****************/
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 2.5rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.nav-items{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+.nav-links{
+  list-style: none;
+  margin: 0 2rem;
+  font-size: 1.3rem;
+}
+.nav-links a{
+ text-decoration: none;
+ color: #ffff87;
+ text-transform: uppercase;
+}
+
+.sign-up {
+  background: none;
+  color: #f4ff23;
+  border: 1px solid;
+  padding: 0.6rem 0.4rem;
+  font-size: 1.2rem;
+  transition: 0.25s all;
+  text-transform: uppercase;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 2.3rem;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar {
+  height: 4px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+nav .brand,
+.brand a {
+  font-size: 4rem;
+  text-decoration: none;
+  color: #00a1b3;
+  font-family: 'Patrick Hand SC', cursive;
+}
+span {
+  color: #32d899;
+}
+
+/*************COVER LOGIN ****************/
+.pormotion {
+  color: white;
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  height: 90vh;
+}
+.por-text {
+  flex: 1 1 10rem;
+  text-align: start;
+  align-self: flex-start;
+  margin-top: 2.5rem;
+}
+.por-text h1 {
+  font-size: 5rem;
+}
+form {
+  flex: 1 1 10rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  display: flex;
+}
+input[type="email"] {
+  border: 2px solid #ffe838;
+  padding: 0.7rem 0.1rem;
+  font-size: 1rem;
+  outline: none;
+  width: 60%;
+}
+button.explore {
+  background: none;
+  color: #ffe838;
+  border: 1px solid;
+  padding: 0.6rem 0.4rem;
+  font-size: 1.2rem;
+  transition: 0.5 s all;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  outline: none;
+}
+/**************FEATURE*************** */
+
+#feature {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.icon-box {
+  text-align: center;
+  padding: 3rem;
+  /* font-size: 2rem; */
+}
+.icon-box h3 {
+  font-size: 1.5rem;
+}
+.icon-box p {
+  font-size: 1rem;
+}
+.icon {
+  margin-bottom: 0.5rem;
+  color: #931621;
+}
+.icon:hover {
+  color: #fd2739;
+}
+
+/* *********Pricing******** */
+.price-section {
+  margin: 3rem 0;
+  background-color: #fdffa3;
+  padding: 2rem 0;
+}
+#pricing h2,
+p {
+  text-align: center;
+}
+.section-heading {
+  font-size: 4rem;
+}
+.explain {
+  font-size: 1.5rem;
+}
+.row {
+  margin: 2rem;
+}
+.card {
+  text-align: center;
+}
+.price-text {
+  font-size: 2rem;
+}
+.detail {
+  font-size: 1rem;
+}
+
+/* **********Testimonials-section*************/
+
+#testimonials {
+  padding: 4rem;
+  background-color: #ceceb5;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3rem;
+  /* padding: 2rem; */
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.Testimonials-section {
+  color: #464bc7;
+}
+em {
+  color: #000;
+  font-size: 1rem;
+}
+/* ************SHOP*************** */
+
+.shop {
+  min-height: 40vh;
+  margin-top: 3rem;
+  background-color: #fdffa3;
+  padding: 3rem;
+  text-align: center;
+}
+.shop-text {
+  font-size: 2.6rem;
+  text-align: justify;
+  padding: 1.4rem;
+}
+.shop-btn button {
+  font-size: 1.4rem;
+  background: none;
+  border: 2px solid;
+  color: #5a1010;
+  padding: 0.8rem 1.5rem;
+  transition: 0.25s all;
+  text-transform: uppercase;
+}
+
+/********** Footer Section********* */
+#footer {
+  min-height: 15rem;
+  background-color: #5a1010;
+}
+.main-footer {
+  color: white;
+  text-align: center;
+}
+.social-icon {
+  margin: 20px 10px;
+  font-size: 3rem;
+}
+.main-footer p {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width:850px){
+    .toggle-button{
+    display:flex;
+    }
+}

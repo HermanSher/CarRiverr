@@ -1,0 +1,123 @@
+/**************NAVIGATION BAR************/
+@media only screen and (max-width:850px){
+    nav{
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .main-nav{
+    display: none;
+    text-align: center;
+  }  
+  nav-items{
+      flex-direction: column;
+      width: 80%;
+      margin: 0;
+      text-align: center;
+
+  }
+ ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    }
+    ul .nav-links{
+    padding: .4rem;
+    margin: .5rem;
+    }
+    h1.brand{
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+    .brand a {
+        font-size: 2.5rem;
+    }
+    .sign-up{
+        margin: 0 auto;
+    }
+
+}
+
+
+/* *****SECTION PORMOTION******** */
+
+@media only screen and (max-width:850px){
+    .pormotion{
+        flex-direction: column;
+        height: 70vh;
+    }
+    .por-text h1{
+        font-size: 3rem;
+    }
+    form{
+        flex-direction: column;
+    }
+    input[type=email]{
+         padding: 0;
+         width: 100%;
+    }
+    button.explore{
+    width: 100%;
+    margin-top: .8rem;
+    margin-left: 0;
+
+    }
+}
+#testimonials{
+  padding: 4rem;
+  background-color: #ceceb5;
+}
+
+/* *********PRICING SECTION ********** */
+@media only screen and (max-width:850px){
+    .section-heading{
+        font-size: 1.5rem;
+ }
+ .explain{
+    font-size: .7rem;
+}
+}
+/* **********Testimonials-section*************/
+
+@media only screen and (max-width:850px){
+    #testimonials{
+        padding: .5rem;
+        min-height:40vh ;
+    }
+    .testimonial-text {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: 1rem;
+    }
+    .carousel-indicators {
+    bottom:-80px;
+    }
+    .carousel-indicators {
+     bottom:-50px;
+    }
+  .lady-img{
+      padding: 0 1.8rem;
+  }
+}
+
+/* SHOP SECTION */
+@media only screen and (max-width:850px){
+    .shop-text{
+        font-size: 1.4rem;
+    }
+    main{
+       max-width: 100%;
+    }
+}
+}
+/* TOGGLE BAR */
+
+@media only screen and (max-width:850px){
+    .toggle-button{
+    display:flex;
+    }
+}
+
